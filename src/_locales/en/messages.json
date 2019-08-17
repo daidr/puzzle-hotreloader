@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Puzzle HotReloader",
+    "description": "The name of the extension."
+  },
+  "appDescription": {
+    "message": "An extension for hot-reloading add-ins which from PuzzleMaker Editor",
+    "description": "The description of the extension."
+  },
+  "btnTooltip": {
+    "message": "Puzzle HotReloader",
+    "description": "Tooltip for the button."
+  }
+}

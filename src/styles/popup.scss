@@ -1,0 +1,65 @@
+@import "modules/reset";
+@import "modules/variables";
+@import "modules/layout";
+
+body,
+html {
+    padding: 0;
+    margin: 0;
+}
+
+#app {
+    padding: 20px 20px;
+    background: $white;
+}
+
+.popup-content {
+    min-width: 220px;
+    min-height: 80px;
+    max-width: 340px;
+}
+
+.app-name {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: $text-secondary;
+    text-align: center;
+    margin: 0 auto 1em auto;
+    padding: 0;
+}
+
+.editor-description {
+    padding: 0.5em;
+    border: 1px solid $gray;
+    margin: 0;
+
+    .message {
+        color: $text-secondary;
+        max-height: 100px;
+        font-size: 0.8em;
+        line-height: 1.2;
+    }
+
+    .error {
+        color: $text-error;
+    }
+}
+
+.action-container {
+    margin: 1em auto;
+}
+
+.btn {
+    background: none;
+    width: 100%;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    padding: 0.5em 1.5em;
+    background: $brand-primary;
+    color: $white;
+    font-weight: $headings-font-weight;
+    border-radius: 2px;
+    outline: none;
+    font-size: 1em;
+}
